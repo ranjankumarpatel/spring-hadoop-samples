@@ -15,7 +15,7 @@ public class DemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		for (FileStatus s : shell.lsr("/tmp")) {
+		for (final FileStatus s : shell.lsr("/user")) {
 			System.out.println("> " + s.getPath());
 		}
 	}
