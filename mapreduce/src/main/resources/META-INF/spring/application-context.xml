@@ -19,7 +19,7 @@
 	<job id="wordcountJob"
 	     input-path="${wordcount.input.path}" 
 	     output-path="${wordcount.output.path}"
-         libs="file:${app.repo}/hadoop-examples-*.jar"
+         libs="file:${app.repo}/spring-hadoop-samples-mapreduce-1.0.0.BUILD-SNAPSHOT.jar"
 		 mapper="org.apache.hadoop.examples.WordCount.TokenizerMapper"
 		 reducer="org.apache.hadoop.examples.WordCount.IntSumReducer"/>
 

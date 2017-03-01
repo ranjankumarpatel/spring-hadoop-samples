@@ -17,7 +17,7 @@ The default is to build and run against Hadoop 2.6.0. To support other versions 
 
 - Hortonworks HDP (version 2.2.6)
 
-    $ mvn clean package -Phdp22
+    $ mvn clean package -Phdp24
 
 - Cloudera CDH5 (version 5.3.3)
 
